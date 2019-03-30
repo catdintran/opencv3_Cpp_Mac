@@ -34,10 +34,10 @@ make install
 ### Setup Xcode Project
 * MacOS > select `Command Line Tool`
 * Go to `Build Settings`:
-    Always Search User Path: true
-    Header Search Paths:  `/usr/local/include`
-    Library Search Paths: `/usr/local/lib`
-    Other Linker Flags: `-lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_shape -lopencv_stitching -lopencv_superres  -lopencv_video -lopencv_videoio -lopencv_videostab`
+   * Always Search User Path: true
+   * Header Search Paths:  `/usr/local/include`
+   * Library Search Paths: `/usr/local/lib`
+   * Other Linker Flags: `-lopencv_calib3d -lopencv_core -lopencv_features2d -lopencv_flann -lopencv_highgui -lopencv_imgcodecs -lopencv_imgproc -lopencv_ml -lopencv_objdetect -lopencv_photo -lopencv_shape -lopencv_stitching -lopencv_superres  -lopencv_video -lopencv_videoio -lopencv_videostab`
 
 ### main.cpp
 ```
